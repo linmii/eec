@@ -124,6 +124,18 @@ public interface Const {
          * The header sub-columns length
          */
         int HEADER_SUB_COLUMNS = 10;
+        /**
+         * Number fill styles in a workbook
+         */
+        int FILL_STYLES = 256;
+        /**
+         * Number font in a workbook
+         */
+        int UNIQUE_FONT_TYPES = 512;
+        /**
+         * Number formats in a workbook
+         */
+        int NUMBER_FORMATS_IN_WORKBOOK = 250;
     }
 
     /**
